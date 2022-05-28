@@ -1,46 +1,33 @@
-# Getting Started with Create React App
+# Buziraco
+Buziraco es una empresa de booking para bandas de rock en Colombia. Esta aplicación muestra los conciertos más recientes y permite a los usuarios adquirir boletas, al mismo tiempo que permite a la propia empresa crear una base de datos de sus compradores para realizar futuros análisis de datos y mejorar su performance en ventas. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Tech
+Las dependecias usadas para el desarrollo de esta aplicación fueron:
+- [React v.17.0](https://es.reactjs.org/) - Framework de JS para el desarrollo de la UI.
+- [Typescript v.4.6](https://www.typescriptlang.org/) Lenguaje construido sobre Javascript que permite tipar los datos generando así aplicaciones más robustas.
+- [Firebase v.9.6](https://firebase.google.com/) - Servidor de Google implementado para alojar los datos necesarios para el funcionamiento de la aplicación. En este caso se usó firestore para almacenar los datos de usuarios y storage para almacenar las imagenes de los flyers de cada concierto. 
+- [Tailwind v.3.0](https://tailwindcss.com/) - Framework CSS usado por su implementación de utilty classes dentro del mismo HTML o JSX en el caso de react facilitando el flujo de trabajo y la rápidez con la que se puede maquetar y personalizar los diseños. 
+- [React-Router-Dom v.6.3](https://reactrouter.com/docs/en/v6/getting-started/overview) - Libreria usada para la navegabilidad de la aplicación como SPA. 
 
-## Available Scripts
 
-In the project directory, you can run:
+## Instalación
 
-### `npm start`
+Buziraco fue desarrollado usando [Node.js](https://nodejs.org/es/) v.18.1 como entorno de ejecución, así que se recomienda la instalacion del mismo para poder correr la aplicación. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Una vez intalado NodeJs se recomienda clonar el repositorio con
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```sh 
+git clone https://github.com/JeanVittory/TMI
+```
 
-### `npm test`
+Una vez hecho el paso anterior se recomienda instalar todas las dependencias que el el proyecto requiere con el siguiente comando
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```sh 
+npm install
+```
 
-### `npm run build`
+Seguido de lo anterior y, usando el manejador de paquetes de node [npm](https://www.npmjs.com/), se ejecuta la aplicación con el siguiente comando: 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+```sh
+npm run start
+```
