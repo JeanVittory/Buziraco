@@ -17,7 +17,7 @@ Buziraco fue desarrollado usando [Node.js](https://nodejs.org/es/) v.18.1 como e
 Una vez intalado NodeJs se recomienda clonar el repositorio con
 
 ```sh 
-git clone https://github.com/JeanVittory/TMI
+git clone https://github.com/JeanVittory/Buziraco
 ```
 
 Una vez hecho el paso anterior se recomienda instalar todas las dependencias que el el proyecto requiere con el siguiente comando
